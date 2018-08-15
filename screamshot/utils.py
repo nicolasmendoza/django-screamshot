@@ -11,7 +11,7 @@ except ImportError:
     # Python 2
     from urlparse import urljoin
 from django.core.exceptions import ImproperlyConfigured, ValidationError
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.core.validators import URLValidator
 from io import BytesIO
 from django.template.loader import render_to_string
